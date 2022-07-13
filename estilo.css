@@ -1,0 +1,41 @@
+/* Selector{
+    property:value;
+
+} */
+*{
+    text-align: right;
+}
+body {
+    background-image:url(JAPIMAGE.jpg) ;
+    background-size: cover;
+}
+
+span{
+    float: right;
+}
+h2,p {
+    color: red;
+   text-align: center;
+   border: 5px solid purple;
+   cursor: pointer;
+}
+
+p {
+    line-height: 100px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.webtext {
+    border: 5px dashed green;
+}
+.active {
+    color: red;
+}
